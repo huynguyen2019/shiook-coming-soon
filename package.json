@@ -1,6 +1,6 @@
 {
     "title": "Coming Soon",
-    "name": "startbootstrap-coming-soon",
+    "name": "shiook-coming-soon",
     "version": "6.0.7",
     "scripts": {
         "build": "npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",

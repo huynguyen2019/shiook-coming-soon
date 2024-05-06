@@ -28,12 +28,13 @@ html(lang='en')
 
         // Background Video
         video.bg-video(playsinline='playsinline', autoplay='autoplay', muted='muted', loop='loop')
-            source(src='assets/mp4/bg.mp4', type='video/mp4')
+            source(src='assets/mp4/bgfood.mp4', type='video/mp4')
 
         // Masthead
         .masthead
             .masthead-content.text-white
-                .container-fluid.px-4.px-lg-0
+                img.logo(src='assets/img/Shiiok logo white.png' style='width:194.4px; height:120px; margin-bottom:50px')
+                .text-center-mobile.container-fluid.px-4.px-lg-0
                     h1.fst-italic.lh-1.mb-4 Our Website is Coming Soon
                     p.mb-5
                         | We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!
@@ -90,7 +91,7 @@ html(lang='en')
         // For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands
         .social-icons
             .d-flex.flex-row.flex-lg-column.justify-content-center.align-items-center.h-100.mt-3.mt-lg-0
-                a.btn.btn-dark.m-3(href='#!')
+                a.btn.btn-dark.m-3(href='#!' style="display: none")
                     i.fab.fa-twitter
                 a.btn.btn-dark.m-3(href='#!')
                     i.fab.fa-facebook-f

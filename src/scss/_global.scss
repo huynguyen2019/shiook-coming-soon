@@ -1,7 +1,17 @@
 // 
 // Global
 // 
-
+@media screen and (max-width: 460px) {
+	.logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.text-center-mobile {
+		display: block;
+		text-align: center;
+	}
+}
 html {
     height: 100%;
 }
